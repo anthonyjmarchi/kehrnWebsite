@@ -1,0 +1,208 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Canela', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #eaeaea;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo-hero {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #555555;
+}
+
+/* Hero Section */
+.hero {
+    height: auto; /* Adjust height to fit content */
+    min-height: 90vh; /* Ensure the section is at least 90vh tall */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px; /* Added padding to avoid content cut-off */
+    flex-direction: column;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin-top: 20px; /* Added margin to avoid cut-off */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.hero .btn {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #555555;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Try Button and Logo */
+.try-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between the logo and the button */
+}
+
+.medium-logo {
+    width: 70px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Email Subscription */
+.email-subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Reduced margin below the subscription form */
+}
+
+.email-subscription input[type="email"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.email-subscription button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.email-subscription button:hover {
+    background-color: #555555;
+}
+
+/* Content Sections */
+.content-section {
+    padding: 1px 20px 5px;
+    text-align: center;
+    margin-top: 10px; /* Reduced margin above the "What is kehrn" section */
+}
+
+.text-block {
+    max-width: 800px;
+    margin: auto;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.images-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 180px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #4169E1; /* Or any other color */
+}
+
+/* Footer */
+footer {
+    background-color: #f8f8f8;
+    color: #555555;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #eaeaea;
+}
